@@ -1,0 +1,114 @@
+BasicInfo:
+    Title: pdn
+    CompanyCode: "00"
+    ProductCode: 0430builder
+    ContentType: Application
+    Logo: None
+
+TitleInfo:
+    UniqueId: 0x21
+    Category: Base
+    Version: 2
+    Variation: 3
+
+Option:
+    UseOnSD: false
+    FreeProductCode: true
+    MediaFootPadding: true
+    EnableCrypt: false
+    EnableCompress: true
+
+AccessControlInfo:
+    IdealProcessor: 1
+    AffinityMask: 2
+    Priority: -12
+    DisableDebug: true
+    EnableForceDebug: false
+    CanWriteSharedPage: false
+    CanUsePrivilegedPriority: false
+    CanUseNonAlphabetAndNumber: false
+    PermitMainFunctionArgument: false
+    CanShareDeviceMemory: false
+    RunnableOnSleep: true
+    SpecialMemoryArrange: false
+    ResourceLimitCategory: Other
+    CoreVersion: 2
+    DescVersion: 2
+    MemoryType: Base
+    HandleTableSize: 0
+    SystemCallAccess:
+        ControlMemory: 1
+        QueryMemory: 2
+        ExitProcess: 3
+        GetProcessIdealProcessor: 6
+        CreateThread: 8
+        ExitThread: 9
+        SleepThread: 10
+        GetThreadPriority: 11
+        SetThreadPriority: 12
+        GetThreadIdealProcessor: 15
+        GetCurrentProcessorNumber: 17
+        CreateMutex: 19
+        ReleaseMutex: 20
+        CreateSemaphore: 21
+        ReleaseSemaphore: 22
+        CreateEvent: 23
+        SignalEvent: 24
+        ClearEvent: 25
+        CreateTimer: 26
+        SetTimer: 27
+        CancelTimer: 28
+        ClearTimer: 29
+        CreateMemoryBlock: 30
+        MapMemoryBlock: 31
+        UnmapMemory: 32
+        CreateAddressArbiter: 33
+        ArbitrateAddress: 34
+        CloseHandle: 35
+        WaitSynchronization1: 36
+        WaitSynchronizationN: 37
+        DuplicateHandle: 39
+        GetSystemTick: 40
+        GetHandleInfo: 41
+        GetSystemInfo: 42
+        GetProcessInfo: 43
+        GetThreadInfo: 44
+        ConnectToPort: 45
+        SendSyncRequest1: 46
+        SendSyncRequest2: 47
+        SendSyncRequest3: 48
+        SendSyncRequest4: 49
+        SendSyncRequest: 50
+        GetProcessId: 53
+        GetProcessIdOfThread: 54
+        GetThreadId: 55
+        GetResourceLimit: 56
+        GetResourceLimitLimitValues: 57
+        GetResourceLimitCurrentValues: 58
+        GetThreadContext: 59
+        Break: 60
+        OutputDebugString: 61
+        CreatePort: 71
+        CreateSessionToPort: 72
+        AcceptSession: 74
+        ReplyAndReceive1: 75
+        ReplyAndReceive2: 76
+        ReplyAndReceive3: 77
+        ReplyAndReceive4: 78
+        ReplyAndReceive: 79
+        BindInterrupt: 80
+        UnbindInterrupt: 81
+        InvalidateProcessDataCache: 82
+        StoreProcessDataCache: 83
+        FlushProcessDataCache: 84
+        StartInterProcessDma: 85
+        StopDma: 86
+        GetDmaState: 87
+    InterruptNumbers:
+    ServiceAccessControl:
+    IORegisterMapping:
+        -  1EC41000
+SystemControlInfo:
+    SaveDataSize: 0KB
+    RemasterVersion: 2
+    StackSize: 0x1000
